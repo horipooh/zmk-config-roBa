@@ -155,7 +155,7 @@
 &trans  &trans  &trans         &kp LG(F10)  &kp LG(LS(LA(SEMICOLON)))                                                &trans               &trans        &trans        &trans        &trans
 &trans  &trans  &trans         &trans       &kp LS(LA(LG(N0)))         &trans                    &trans              &trans               &trans        &trans        &trans        &trans
 &trans  &trans  &Horipu630811  &horipu0811  &horipu                    &kp LG(LS(NUMBER_4))      &kp RC(UP_ARROW)    &bt BT_SEL 0         &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4
-&trans  &trans  &trans         &trans       &trans                     &trans                    &kp LC(LEFT_ARROW)  &kp RC(RIGHT_ARROW)                                            &trans
+&trans  &trans  &trans         &trans       &kp SPACE                  &trans                    &kp LC(LEFT_ARROW)  &kp RC(RIGHT_ARROW)                                            &trans
             >;
 
             sensor-bindings = <&inc_dec_kp LG(PLUS) LG(MINUS)>;
