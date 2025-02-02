@@ -127,7 +127,7 @@
 &kp EQUAL             &kp KP_NUMBER_0  &kp PERIOD       &kp LEFT_WIN     &kp SPACE    &kp LEFT_ALT      &kp ENTER       &kp BACKSPACE                                                           &to 0
             >;
 
-            sensor-bindings = <&scroll_up_down>;
+            sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
         };
 
         ARROW {
@@ -158,7 +158,7 @@
 &trans  &trans  &trans         &trans       &trans                     &trans                    &kp LC(LEFT_ARROW)  &kp RC(RIGHT_ARROW)                                            &trans
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
+            sensor-bindings = <&inc_dec_kp LG(PLUS) LG(MINUS)>;
         };
 
         layer_6 {
