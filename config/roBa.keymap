@@ -152,7 +152,7 @@
 &trans  &trans  &trans         &trans       &kp SPACE                  &trans                    &kp LC(LEFT_ARROW)  &kp RC(RIGHT_ARROW)                                                               &trans
             >;
 
-            sensor-bindings = <&inc_dec_kp LG(Z) LA(LG(Z))>;
+            sensor-bindings = <&inc_dec_kp C_VOLUME_DOWN C_VOL_UP>;
         };
 
         layer_6 {
